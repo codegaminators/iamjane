@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
- <link rel="stylesheet" href="./styles/helpers.css">
- <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./styles/helpers.css">
+  <link rel="stylesheet" href="./styles/index.css">
   <title>I am jane</title>
 </head>
+
 <body>
   <header>
     <div class="container">
@@ -20,33 +24,118 @@
         </ul>
       </nav>
       <div id="show-case">
-       <div class="d-flex">
-        <div class="left">
-          <h1>Hello</h1>
-          <h1>I'm Jane Eyahrhre</h1>
-          <h1>and I'm a model</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        <div class="d-flex">
+          <div class="left">
+            <h1>Hello</h1>
+            <h1>I'm Jane Eyahrhre</h1>
+            <h1>and I'm a model</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam,
 
-          </p>
+            </p>
 
-          <button class="btn">Book Me</button>
+            <button class="btn">Book Me</button>
+          </div>
+          <div class="right">
+            <ul>
+              <li>
+                <i class="fab fa-facebook-f"></i>
+              </li>
+              <li>
+                <i class="fab fa-instagram"></i>
+              </li>
+              <li>
+                <i class="fab fa-twitter"></i>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="right">
-          <ul>
-            <li>
-              <i class="fab fa-facebook-f"></i>
-            </li>
-            <li>
-             <i class="fab fa-instagram"></i>
-            </li>
-            <li>
-              <i class="fab fa-twitter"></i>
-             </li>
-          </ul>
-        </div>
-       </div>
       </div>
     </div>
   </header>
+
+  <section id="about">
+    <div class="container">
+      <div class="flex-wrapper">
+        <div class="left">
+          <img src="./assets/pic1.png" alt="">
+        </div>
+        <div class="right">
+          <div class="container">
+            <div class="wrapper">
+
+              <h1 class="heading">About Me</h1>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam,
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                enim ipsam
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                ratione
+                voluptatem sequi nesciunt.</p>
+
+              <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                non numquam eius
+                modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+                quis nostrum
+                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+                vel eum iure
+                reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum
+                fugiat quo
+                voluptas nulla pariatur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery">
+    <div class="container">
+      <div class="box-wrapper">
+        <div class="box"><img src="./assets/pic2.png" alt=""></div>
+        <div class="box"><img src="./assets/pic2.png" alt=""></div>
+        <div class="box"><img src="./assets/pic2.png" alt=""></div>
+      </div>
+
+      <div class="contact">
+        <div class="left">
+          <h3>I'D LOVE TO HEAR FROM YOU</h3>
+          <ul class="d-flex mt-2">
+            <li class="mr-2">
+              <i class="fab fa-facebook-f"></i>
+            </li>
+            <li class="mr-2">
+              <i class="fab fa-instagram"></i>
+            </li>
+            <li class="mr-2">
+              <i class="fab fa-twitter"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="right">
+          <div class="container">
+            <form>
+              <h4 class="text-center mb-2">Contact Me</h4>
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" rows="10"></textarea>
+              </div>
+              <div class="text-right">
+                <button class="btn">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
