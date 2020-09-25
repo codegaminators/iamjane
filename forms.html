@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <title>Forms</title>
+</head>
+
+<style>
+    .box {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        transition: all 1s ease-in-out;
+    }
+
+    /* p::before {
+        content: "*";
+        color: red;
+    } */
+
+    .box:hover {
+        background-color: yellow;
+        border-radius: 100%;
+    }
+
+    @media screen and (max-width: 568px) {
+        .box {
+            background-color: green;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Forms</h1>
+        <form action="">
+            <div class="form-group">
+                <label>Username</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input class="form-control" type="email">
+            </div>
+            <div class="form-group">
+                <label>Select Program</label>
+                <select class="form-control">
+                    <option>Please select one program</option>
+                    <option>Coding class</option>
+                    <option>Animation class</option>
+                    <option>Design class</option>
+                    <option>Gaming class</option>
+                    <option>Other </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Passsword</label>
+                <input class="form-control" type="password">
+            </div>
+            <div class="form-group">
+                <label>Confirm Password</label>
+                <input class="form-control" type="password">
+            </div>
+            <div class="form-group">
+                <label for="">Choose a section</label>
+                <input class="form-control" type="radio"> Morning
+                <input class="form-control" type="radio"> Afternoon
+            </div>
+            <div class="form-group">
+                <label for="">Choose Group</label>
+                <input class="form-control" type="checkbox" name="" id=""> Group 1
+                <input class="form-control" type="checkbox" name="" id=""> Group 2
+            </div>
+            <button class="btn btn-secondary btn-block">Register now</button>
+        </form>
+
+        <div class="media-query-example">
+            <p class="after-example">After</p>
+            <div class="box"></div>
+        </div>
+    </div>
+</body>
+
+</html>

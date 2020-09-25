@@ -108,7 +108,7 @@ p {
 
 .form-control {
   display: inline-block;
-  width: 100%;
+  flex: 1;
   background-color: transparent;
   color: #f5f4f4;
   outline: none;
@@ -121,6 +121,14 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+}
+
+.form-group label {
+  width: 15%;
+}
+
+form {
+  margin-left: 5%;
 }
 
 .text-right {
